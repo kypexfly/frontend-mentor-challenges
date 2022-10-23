@@ -15,19 +15,24 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="top-bg"></div>
       <div class="container">
         <header>
           <div>
-            <h1>Social Media Dashboard</h1>
+            <h1 class="dashboard-title">Social Media Dashboard</h1>
           <p><strong>Total Followers: 23,004</strong></p>
           </div>
-          <div class="toggle-switch">
+          <div class="toggle-switch-box">
             Dark Mode
+            <label class="switch">
+              <input id="toggler" type="checkbox">
+              <span class="slider round"></span>
+            </label>
           </div>
         </header>
 
         <div class="socials">
-          <div class="line-fb">
+          <div class="card line-fb">
             <span class="s-media">
               <img src="./images//icon-facebook.svg" alt="icon-facebook" />
               @nathanf
@@ -39,7 +44,7 @@
             <span class="green">12 Today</span>
           </div>
 
-          <div class="line-tw">
+          <div class="card line-tw">
             <span class="s-media">
               <img src="./images//icon-twitter.svg" alt="icon-twitter" />
               @nathanf
@@ -51,7 +56,7 @@
             <span class="green">99 Today</span>
           </div>
 
-          <div class="line-ig">
+          <div class="card line-ig">
             <span class="s-media">
               <img
                 src="./images//icon-instagram.svg"
@@ -66,7 +71,7 @@
             <span class="green">1099 Today</span>
           </div>
 
-          <div class="line-yt">
+          <div class="card line-yt">
             <span class="s-media">
               <img src="./images//icon-youtube.svg" alt="icon-youtube.svg" />
               Nathan F.
@@ -81,7 +86,7 @@
 
         <h1 class="overview">Overview - Today</h1>
         <div class="stats">
-          <div>
+          <div class="card">
             <div>
               Page Views
               <img src="./images//icon-facebook.svg" alt="icon-facebook" />
@@ -92,7 +97,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Likes
               <img src="./images//icon-facebook.svg" alt="icon-facebook" />
@@ -103,7 +108,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Likes
               <img
@@ -116,7 +121,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Profile Views
               <img
@@ -129,7 +134,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Retweets
               <img src="./images//icon-twitter.svg" alt="icon-twitter" />
@@ -140,7 +145,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Likes
               <img src="./images//icon-twitter.svg" alt="icon-twitter" />
@@ -151,7 +156,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Likes
               <img src="./images//icon-youtube.svg" alt="icon-youtube.svg" />
@@ -162,7 +167,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="card">
             <div>
               Total Views
               <img src="./images//icon-youtube.svg" alt="icon-youtube.svg" />
@@ -176,9 +181,17 @@
       </div>
     </div>
 
-    <!-- <div class="attribution">
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/kypexfly">Ricardo Chu</a>.
-  </div> -->
+  </div>
+
+  <script>
+    let theme_toggler = document.querySelector('#toggler');
+    theme_toggler.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+    })
+
+  </script>
   </body>
 </html>
