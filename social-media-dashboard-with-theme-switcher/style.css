@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --lime-green: hsl(163, 72%, 41%);
+  --bright-red: hsl(356, 69%, 56%);
+}
+
+.green {
+  font-weight: bold;
+  color: var(--lime-green);
+}
+
+.red {
+  font-weight: bold;
+  color: var(--bright-red)
+}
+
+.linecolor-fb {
+  fill: hsl(208, 92%, 53%)
+}
+
+.linecolor-tw {
+  fill: hsl(203, 89%, 53%)
+}
+
+.linecolor-ig {
+  fill: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+}
+
+.linecolor-yt {
+  fill: hsl(348, 97%, 39%)
+}
+
+body, html {
+  font-family: 'Inter';
+  min-height: 100%;
+  background-color: var(--red);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.socials, .stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.socials > div, .stats > div {
+  background-color:  hsl(227, 47%, 96%);
+  border-radius: 0.475rem;
+  padding: 1.5em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
