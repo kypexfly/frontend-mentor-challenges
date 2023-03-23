@@ -39,7 +39,7 @@ So, if a job listing is for has the following categories `Frontend, Junior, Java
 
 #### Option 2
 
-Use the [data.json](./data.json) file to pull the data and then dynamically add the content. This would be perfect if you're looking to practice a JS library/framework like React, Vue, or Svelte.
+Use the [data.json](./src/data/jobs.json) file to pull the data and then dynamically add the content. This would be perfect if you're looking to practice a JS library/framework like React, Vue, or Svelte.
 
 To add a filter, the user needs to click on the tablets on the right-side of the listing on desktop or the bottom on mobile. For each filter added, only listings containing all selected filters should be returned.
 
@@ -80,7 +80,7 @@ You can host your site using one of these solutions or any of our other trusted 
 
 ## Create a custom `README.md`
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the `README-template.md` file in this starter code.
 
 The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
 
