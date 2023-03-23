@@ -1,0 +1,100 @@
+.jobCard {
+    background-color: #FFF;
+    border-left: 5px solid transparent;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 15px rgb(144, 193, 193);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .jobCard {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .list {
+        padding: 0 0;
+    }
+    .companyLogo {
+        margin-top: -60px;
+        width: 75px;
+    }
+
+    .description {
+        border-bottom: 1px solid hsl(180, 8%, 52%);
+        flex-direction: column;
+        padding-bottom: 0.5em;
+        place-items: start;
+    }
+}
+
+.description {
+    align-items: start;
+    display: flex;
+    flex: 1;
+    gap: 1em;
+}
+
+.featuredCard {
+    border-left-color: hsl(180, 29%, 50%);
+}
+
+.new {
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 0.75rem;
+    color: #FFF;
+    font-size: 12px;
+    margin-right: 0.5em;
+    padding: 0.2em 0.5em;
+}
+
+.featured {
+    background-color: hsl(180, 14%, 20%);
+    border-radius: 0.75rem;
+    color: #FFF;
+    font-size: 12px;
+    margin-right: 0.5em;
+    padding: 0.2em 0.5em;
+}
+
+.list {
+    align-items: center;
+    color: hsl(180, 8%, 52%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    list-style-type: none;
+}
+
+.listItem {
+    background-color: hsl(180, 31%, 95%);
+    border-radius: 0.25rem;
+    color: hsl(180, 29%, 50%);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.25em 0.75em;
+}
+
+.listItem:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: #FFF;
+}
+
+.company {
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+    margin-right: 1em;
+}
+
+.position {
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.position:hover {
+    color: hsl(180, 29%, 50%)
+}

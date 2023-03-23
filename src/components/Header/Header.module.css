@@ -1,0 +1,13 @@
+.header {
+    background-color: hsl(180, 29%, 50%);
+    background-image: url('/images/bg-header-desktop.svg');
+    background-position: center center;
+    height: 156px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .header {
+        background-image: url('/images/bg-header-mobile.svg');
+    }
+}
