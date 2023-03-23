@@ -6,7 +6,7 @@ My personal challenges from [Frontend Mentor](https://www.frontendmentor.io). Se
 
 # Completed Challenges
 * [Social media dashboard with theme switcher](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-0DRhGLYmi)
+* [Job listing with filtering](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub)
 
 # Work In Progress
-* [Job listing with filtering](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub)
 * [Todo app](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
